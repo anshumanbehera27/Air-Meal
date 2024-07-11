@@ -66,7 +66,7 @@ https://github.com/anshumanbehera27/Air-Meal.git
  cd backend
  npm install
 ```
-- 3. **set up mongoDB**
+- **set up mongoDB**
 - open this link for register and setup -[link](https://nodejs.org/).
   ![mongofirst](images/mongohome.png)
 -  Whitelist IP 0.0.0.0 & Click on Add Entry
