@@ -42,12 +42,13 @@
 ### View and Manage Food Items
 - **Item List**: Displays all food items with their details and images, including options to delete items.
 - **Search/Filter**: Easily find, manage, and delete items from the database with a confirmation prompt.
-   ![ViewList](admin2/admin2.png)
+   ![ViewList](images/admin2.png)
 ## Show the Demotration Of the AirMeal
-<video width="600" controls>
-  <source src="" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+[![youtubvideo](frontend/public/header-image.png)](https://www.youtube.com/watch?v=Uch8Vv_gReo)
+
+
+
 ## How to Setup & Run this Project
 
 ### To run the AirMeal project, follow these steps:
@@ -72,7 +73,7 @@ https://github.com/anshumanbehera27/Air-Meal.git
 -  Whitelist IP 0.0.0.0 & Click on Add Entry 
 -  After that connect the mongodb and you go the link 
 -  Copy past the url in backend -> config -> db.js
-![mongoCoonect](images\mongoConnect.png)
+[![mongoCoonect]()](images\mongoConnect.png)
 
 - 4. **Run the Backend** 
 ```bash
