@@ -4,7 +4,7 @@
 ### AirMeal is a React application designed to enhance the in-flight dining experience by allowing users to browse and order meals and drinks conveniently. The app features a variety of meals with detailed information and images, optional drink selection, and tag-based filtering for easy meal discovery. It also provides a clear total cost of the selected items
 
 ## Project Structure
-![AirMealStr](..\images\AirmealStr.png)
+![AirMealStr](\images\AirmealStr.png)
 ## Frontend Features of AirMeal
 ### Meal List
 - **Displays available meals** with basic information, including name, description, and price.
@@ -44,8 +44,6 @@
 ### View Food Items
 - **Item List:** Shows all food items with their details and images.
 - **Search/Filter:** Easily find and manage items.
-
-
 
 ## How to Setup & Run this Project
 
