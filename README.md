@@ -43,11 +43,10 @@
 - **Item List**: Displays all food items with their details and images, including options to delete items.
 - **Search/Filter**: Easily find, manage, and delete items from the database with a confirmation prompt.
    ![ViewList](images/admin2.png)
-## Show the Demotration Of the AirMeal
+## Show the Demotration Of the AirMeal by clicking the below Link
+[youTube](https://www.youtube.com/watch?v=Uch8Vv_gReo)
 
 [![youtubvideo](frontend/public/header-image.png)](https://www.youtube.com/watch?v=Uch8Vv_gReo)
-
-
 
 ## How to Setup & Run this Project
 
@@ -56,25 +55,25 @@
 - Ensure you have **Node.js** and **npm** installed on your machine.
     - You can download Node.js [here](https://nodejs.org/).
 
-
 ###  First Run Backend then Frontend & Admin
 - Open vs code  and open terminal 
-- 1. **Clone the Repository:**
+-**Clone the Repository:**
 ```bash
 https://github.com/anshumanbehera27/Air-Meal.git
 ```
-- 2. **move to backend folder**
+- **move to backend folder**
 ```bash
  cd backend
  npm install
 ```
 - 3. **set up mongoDB**
 - open this link for register and setup -[link](https://nodejs.org/).
--  Whitelist IP 0.0.0.0 & Click on Add Entry 
+  ![mongofirst](images/mongohome.png)
+-  Whitelist IP 0.0.0.0 & Click on Add Entry
+-  ![mongolink](images/mongo2.png)
 -  After that connect the mongodb and you go the link 
 -  Copy past the url in backend -> config -> db.js
-[![mongoCoonect]()](images\mongoConnect.png)
-
+-  ![mongolink](images/mongoConnect.png)
 - 4. **Run the Backend** 
 ```bash
  npm run server
