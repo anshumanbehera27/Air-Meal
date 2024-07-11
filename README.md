@@ -4,7 +4,7 @@
 ### AirMeal is a React application designed to enhance the in-flight dining experience by allowing users to browse and order meals and drinks conveniently. The app features a variety of meals with detailed information and images, optional drink selection, and tag-based filtering for easy meal discovery. It also provides a clear total cost of the selected items
 
 ## Project Structure
-![AirMealStr](\images\AirmealStr.png)
+![AirMealStr](images/AirmealStr.png)
 ## Frontend Features of AirMeal
 ### Meal List
 - **Displays available meals** with basic information, including name, description, and price.
@@ -25,10 +25,12 @@
 ### Food Item Storage
 - **Database:** All meal details, including name, description, price, image, and tags, are stored in a MongoDB database.
 - **Advantages:** This setup allows for flexible and scalable data management.
+  ![foodItemStorage](images/backend1.png)
 
 ### User Authentication
 - **Data Storage:** User credentials and personal information are securely stored in MongoDB.
 - **Authentication:** The backend supports user registration, login, and secure authentication using hashed passwords and token-based access.
+   ![UserAuthentication](images/backend2.png)
 
 ---
 ## Admin Page Features for AirMeal
@@ -36,18 +38,14 @@
 ### Upload Food Items
 - **Add Form:** Input details such as name, description, price, image, and tags.
 - **Submit:** Adds new items to the database with validation.
-
-### Remove Food Items
-- **Item List:** Displays existing food items with delete options.
-- **Delete:** Remove items from the database with a confirmation prompt.
-
-### View Food Items
-- **Item List:** Shows all food items with their details and images.
-- **Search/Filter:** Easily find and manage items.
-
+ ![uploadFoodItem](images/admin1.png)
+### View and Manage Food Items
+- **Item List**: Displays all food items with their details and images, including options to delete items.
+- **Search/Filter**: Easily find, manage, and delete items from the database with a confirmation prompt.
+   ![ViewList](admin2/admin2.png)
 ## Show the Demotration Of the AirMeal
 <video width="600" controls>
-  <source src="https://your-username.github.io/your-repository-name/videos/myvideo.mp4" type="video/mp4">
+  <source src="" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 ## How to Setup & Run this Project
